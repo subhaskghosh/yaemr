@@ -1,13 +1,6 @@
-[{
-		"section_name": "Subjective"
-	},
-	{
-		"section_name": "Objective"
-	},
-	{
-		"section_name": "Assessment"
-	},
-	{
-		"section_name": "Plan"
-	}
+[
+{"section_name": "Subjective", "data":[{"name":"Sore throat","f":71},{"name":"Skin rash","f":69},{"name":"Abdominal pain","f":61},{"name":"Backache","f":52},{"name":"Earache","f":49}]},
+{"section_name": "Objective", "data":[{"name":"Sore throat","f":71},{"name":"Skin rash","f":69},{"name":"Abdominal pain","f":61},{"name":"Backache","f":52},{"name":"Earache","f":49}]},
+{"section_name": "Assessment", "data":[{"name":"Sore throat","f":71},{"name":"Skin rash","f":69},{"name":"Abdominal pain","f":61},{"name":"Backache","f":52},{"name":"Earache","f":49}]},
+{"section_name": "Plan", "data":[{"name":"Sore throat","f":71},{"name":"Skin rash","f":69},{"name":"Abdominal pain","f":61},{"name":"Backache","f":52},{"name":"Earache","f":49}]}
 ]

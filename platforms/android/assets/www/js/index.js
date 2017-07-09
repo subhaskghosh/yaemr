@@ -1,34 +1,19 @@
 document.addEventListener("deviceready", init, false);
 function init() {
-
-	console.log(cordova.file.applicationDirectory);	
-	window.resolveLocalFileSystemURL(cordova.file.applicationDirectory, function(f) {
-		console.dir(f);
-	}, fail);
-
-	$.get("index.html", function(res) {
-		console.log("index.html", res);
-	});
-	
-
+loadDefault();	
 }
 
-function fail(e) {
-	console.log("FileSystem Error");
-	console.dir(e);
+function loadDefault() {
+    var request = new XMLHttpRequest();
+    request.open("GET", "https://raw.githubusercontent.com/subhaskghosh/yaemr/master/ui.json", true);
+    request.onreadystatechange = function() {//Call a function when the state changes.
+        if (request.readyState == 4) {
+            if (request.status == 200 || request.status == 0) {
+                var res = JSON.parse(request.responseText);
+		console.log("YAEMR: " + JSON.stringify(res));
+                }
+            }
+        }
+    request.send();
 }
 
-function gotFile(fileEntry) {
-
-	fileEntry.file(function(file) {
-		var reader = new FileReader();
-
-		reader.onloadend = function(e) {
-			console.log("Text is: "+this.result);
-			document.querySelector("#textArea").innerHTML = this.result;
-		}
-
-		reader.readAsText(file);
-	});
-
-}
