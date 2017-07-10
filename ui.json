@@ -1,6 +1,6 @@
 [
 {"section_name": "Subjective", "data":[{"name":"Sore throat","f":71},{"name":"Skin rash","f":69},{"name":"Abdominal pain","f":61},{"name":"Backache","f":52},{"name":"Earache","f":49}]},
-{"section_name": "Objective", "data":[{"name":"ardiovascular – denies chest pain; denies palpitations","f":71},{"name":"Lymph nodes: Non-tender, no palpable masses","f":69},{"name":"Abdomen soft and non-distended with no scars or striations","f":61},{"name":"Lungs: Lungs clear to auscultation bilaterally; No wheezes or crackles","f":52},{"name":"Hemoccult positive stool","f":49}]},
+{"section_name": "Objective", "data":[{"name":"ardiovascular","f":71},{"name":"Lymph nodes: Non-tender","f":69},{"name":"Abdomen soft","f":61},{"name":"Lungs clear to auscultation","f":52},{"name":"Hemoccult positive stool","f":49}]},
 {"section_name": "Assessment", "data":[{"name":"Levothyroxine","f":71},{"name":"Omeprazole 40mg","f":69},{"name":"Hydrocodone/Acetaminophen","f":61},{"name":"Amoxicillin/Potassium Clavulanate ER","f":52},{"name":"Amphetamine/Dextroamphetamine 500mg.","f":49}]},
-{"section_name": "Plan", "data":[{"name":"Hemoglobin A1C or Glycohemoglobin","f":71},{"name":"Carbamazepine Hypersensitivity Pharmacogenomics, Blood","f":69},{"name":"Cervical Papanicolaou Smear","f":61},{"name":"Blood Urea Nitrogen (BUN)","f":52},{"name":"TSH, G6PD, 17-OHP,IRT, Galactose, Haemoglobinopathies, Amino Acids, Fatty Acids","f":49}]}
+{"section_name": "Plan", "data":[{"name":"Hemoglobin A1C","f":71},{"name":"CHP, Blood","f":69},{"name":"Cervical Pap Smear","f":61},{"name":"BUN","f":52},{"name":"TSH","f":49}]}
 ]
