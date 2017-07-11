@@ -18,9 +18,9 @@ function loadDefault() {
 			$("#PAGE").append("<ons-card><div class=\"title\">" + name + "</div><div class=\"content\"><div id=\"" + name + "\"></div><div style=\"text-align: left; margin-top: 30px;\" id=\"" + name + "_type_area\"></div></div></ons-card>");
 			for(j in data){
 				var symptom = data[j]["name"]
-				$("#" + name).append("<ons-button modifier=\"quiet\">" + symptom + "</ons-button>");
+				$("#" + name).append("<span class=\"initial\">" + symptom + "</span>");
 			}
-			$("#" + name + "_type_area").append("<p><ons-input id=\"type_\"" + name +  "modifier=\"underbar\" placeholder=\"Type your\" float></ons-input></p>")
+			$("#" + name + "_type_area").append("<p><ons-input id=\"type_\"" + name +  "modifier=\"underbar\" placeholder=\"Add More\" float></ons-input></p>")
 		}
                 }
             }
